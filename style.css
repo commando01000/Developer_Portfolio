@@ -1,0 +1,326 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.navbar-nav li:hover {
+  color: crimson !important;
+}
+
+.container .logo a {
+  color: white;
+}
+
+.container ul li a {
+  color: white;
+  position: relative;
+}
+
+.navbar-nav {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-hover-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.dropdown-menu {
+  background-color: #212529;
+}
+
+.container ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  color: white;
+  background-color: white;
+  transition: width 0.5s;
+}
+
+.container ul li a:hover::after {
+  width: 90%;
+}
+
+.navbar-nav .nav-link.active::after,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: white;
+  width: 90%;
+}
+
+#home {
+  background: url(./images/hero-bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.home-layer {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.home-description h1 {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 86.4px;
+  color: white;
+}
+
+.about-me-title h5::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 10%;
+  height: 3px;
+  background-color: #0078ff;
+}
+
+.box-shadow-full {
+  padding: 50px 50px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.services-title h3 {
+  font-weight: 700;
+  font-size: 48px;
+  color: rgb(30, 30, 30);
+}
+
+.service-description::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 49%;
+  width: 3%;
+  height: 5px;
+  background-color: #0078ff;
+}
+
+#services .container .card i {
+  font-size: 30px !important;
+}
+
+#services .container .card {
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  border-radius: 5%;
+}
+
+#services .container .card .ico-circle {
+  height: 60px;
+  width: 60px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55cm;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+}
+
+#services .container .card:hover .ico-circle {
+  transition: 0.5s ease;
+  color: #fff;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+
+#work {
+  margin-top: 100px;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  background: url(./images/counters-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+#work .container .item .icon-circle i {
+  font-size: 30px;
+  color: white;
+}
+
+#work .container .item .icon-circle {
+  width: 60px;
+  height: 60px;
+  line-height: 1.6cm;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+
+#work .container .item .item-description {
+  text-align: center;
+}
+
+#work .layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #0078ff;
+  opacity: 0.5;
+}
+
+/* Portfolio Section */
+
+.portfolio-title h3 {
+  font-weight: 700;
+  font-size: 48px;
+  color: rgb(30, 30, 30);
+}
+
+.portfolio-description::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 49%;
+  width: 3%;
+  height: 5px;
+  background-color: #0078ff;
+}
+
+#portfolio .container .card i {
+  font-size: 30px !important;
+}
+
+#portfolio .container .card {
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio .container .card .ico-circle {
+  height: 60px;
+  width: 60px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55cm;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+}
+
+#portfolio .container .card:hover .ico-circle {
+  transition: 0.5s ease;
+  color: #fff;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+
+#testimonials .carousel-item img {
+  width: 160px;
+  height: 160px;
+}
+
+#testimonials {
+  background: url(./images/overlay-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+#testimonials .layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #0078ff;
+  opacity: 0.5;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 50%;
+  border: 1px solid white;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+  position: relative;
+  top: 40px;
+}
+
+.carousel-indicators .active {
+  opacity: 1 !important;
+}
+
+.portfolio-title h3 {
+  font-weight: 700;
+  font-size: 48px;
+  color: rgb(30, 30, 30);
+}
+
+.blog-description::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 49%;
+  width: 3%;
+  height: 5px;
+  background-color: #0078ff;
+}
+
+#blog .container .card i {
+  font-size: 30px !important;
+}
+
+#blog .container .card {
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+#blog .container .card .ico-circle {
+  height: 60px;
+  width: 60px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55cm;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+}
+
+#blog .container .card:hover .ico-circle {
+  transition: 0.5s ease;
+  color: #fff;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+
+#blog .container .card .owner-image img {
+  width: 30px;
+  height: 30px;
+}
+
+#blog .container .card .time-elapsed i {
+  font-size: 20px !important;
+}
