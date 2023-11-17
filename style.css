@@ -62,6 +62,7 @@ body {
   background: url(./images/hero-bg.jpg);
   background-size: cover;
   height: 100vh;
+  background-attachment: fixed;
   position: relative;
 }
 
@@ -73,7 +74,6 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.9;
 }
 
 .home-description h1 {
@@ -81,6 +81,7 @@ body {
   font-size: 72px;
   line-height: 86.4px;
   color: white;
+  z-index: 1;
 }
 
 .about-me-title h5::after {
@@ -152,6 +153,7 @@ body {
   background-size: cover;
   background-position: center center;
   position: relative;
+  color: white;
 }
 
 #work .container .item .icon-circle i {
@@ -323,4 +325,63 @@ body {
 
 #blog .container .card .time-elapsed i {
   font-size: 20px !important;
+}
+
+#contact-us {
+  position: relative;
+  background: url(./images/overlay-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 999;
+}
+
+#contact-us .container {
+  padding-top: 100px;
+}
+
+#contact-us .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(8, 90, 242, 0.4);
+  z-index: -1;
+}
+
+#contact-us .container button {
+  background-color: #0078ff;
+  transition: 0.5s ease;
+  color: white;
+  padding: 10px;
+  border: 0;
+  border-radius: 20px;
+}
+
+#contact-us .container button:hover {
+  background-color: #3393ff;
+  box-shadow: 0 0 0 5px #cde1f8;
+}
+
+#contact-us .container h4 {
+  position: relative;
+}
+
+#contact-us .container h4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 40%;
+  height: 3px;
+  background-color: #0078ff;
+}
+
+.more-info ul {
+  list-style: none;
+}
+
+.more-info ul li a {
+  text-decoration: none;
 }
