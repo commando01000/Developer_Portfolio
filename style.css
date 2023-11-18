@@ -84,6 +84,329 @@ body {
   z-index: 1;
 }
 
+#home h2 {
+  color: white !important;
+  z-index: 1;
+}
+
+#home h2::after {
+  content: "|";
+  height: 50px;
+  width: 80px;
+  color: white !important;
+  opacity: 1 !important;
+  animation-name: automated_text;
+  animation-duration: 14s;
+  z-index: 1;
+  animation-iteration-count: infinite;
+}
+
+@keyframes automated_text {
+  0% {
+    content: "d|";
+  }
+  1% {
+    content: "de|";
+  }
+  2% {
+    content: "dev|";
+  }
+  3% {
+    content: "deve|";
+  }
+  4% {
+    content: "devel|";
+  }
+  5% {
+    content: "develo|";
+  }
+  6% {
+    content: "develop|";
+  }
+  7% {
+    content: "develope|";
+  }
+  8% {
+    content: "developer|";
+  }
+  9% {
+    content: "develope|";
+  }
+  10% {
+    content: "develo|";
+  }
+  11% {
+    content: "devel|";
+  }
+  12% {
+    content: "deve|";
+  }
+  13% {
+    content: "dev|";
+  }
+  14% {
+    content: "de|";
+  }
+  15% {
+    content: "d|";
+  }
+  16% {
+    content: "d|";
+  }
+  17% {
+    content: "de|";
+  }
+  18% {
+    content: "des|";
+  }
+  19% {
+    content: "desi|";
+  }
+  20% {
+    content: "desig|";
+  }
+  21% {
+    content: "design|";
+  }
+  22% {
+    content: "designe|";
+  }
+  23% {
+    content: "designer|";
+  }
+  24% {
+    content: "designe|";
+  }
+  25% {
+    content: "design|";
+  }
+  26% {
+    content: "desig|";
+  }
+  27% {
+    content: "desi|";
+  }
+  28% {
+    content: "des|";
+  }
+  29% {
+    content: "de|";
+  }
+  30% {
+    content: "d|";
+  }
+  31% {
+    content: "f|";
+  }
+  32% {
+    content: "fr|";
+  }
+  33% {
+    content: "fre|";
+  }
+  34% {
+    content: "free|";
+  }
+  35% {
+    content: "freel|";
+  }
+  36% {
+    content: "freela|";
+  }
+  37% {
+    content: "freelan|";
+  }
+  38% {
+    content: "freelanc|";
+  }
+  39% {
+    content: "freelance|";
+  }
+  40% {
+    content: "freelancer|";
+  }
+  41% {
+    content: "freelance|";
+  }
+  42% {
+    content: "freelanc|";
+  }
+  43% {
+    content: "freelan|";
+  }
+  44% {
+    content: "freela|";
+  }
+  45% {
+    content: "freel|";
+  }
+  46% {
+    content: "free|";
+  }
+  47% {
+    content: "fre|";
+  }
+  48% {
+    content: "fr|";
+  }
+  49% {
+    content: "p|";
+  }
+  50% {
+    content: "ph|";
+  }
+  51% {
+    content: "pho|";
+  }
+  52% {
+    content: "phot|";
+  }
+  53% {
+    content: "photo|";
+  }
+  54% {
+    content: "photog|";
+  }
+  55% {
+    content: "photogr|";
+  }
+  56% {
+    content: "photogra|";
+  }
+  57% {
+    content: "photograp|";
+  }
+  58% {
+    content: "photograph|";
+  }
+  59% {
+    content: "photographe|";
+  }
+  60% {
+    content: "photographer|";
+  }
+  61% {
+    content: "photographe|";
+  }
+  62% {
+    content: "photograph|";
+  }
+  63% {
+    content: "photograp|";
+  }
+  64% {
+    content: "photogr|";
+  }
+  65% {
+    content: "photog|";
+  }
+  66% {
+    content: "photo|";
+  }
+  67% {
+    content: "phot|";
+  }
+  68% {
+    content: "pho|";
+  }
+  69% {
+    content: "ph|";
+  }
+  70% {
+    content: "p|";
+  }
+  71% {
+    content: "|";
+  }
+  72% {
+    content: "|";
+  }
+  73% {
+    content: "d|";
+  }
+  74% {
+    content: "de|";
+  }
+  75% {
+    content: "dev|";
+  }
+  76% {
+    content: "deve|";
+  }
+  77% {
+    content: "devel|";
+  }
+  78% {
+    content: "develo|";
+  }
+  79% {
+    content: "develop|";
+  }
+  80% {
+    content: "develope|";
+  }
+  81% {
+    content: "developer|";
+  }
+  82% {
+    content: "develope|";
+  }
+  83% {
+    content: "develo|";
+  }
+  84% {
+    content: "devel|";
+  }
+  85% {
+    content: "deve|";
+  }
+  86% {
+    content: "dev|";
+  }
+  87% {
+    content: "de|";
+  }
+  88% {
+    content: "d|";
+  }
+  89% {
+    content: "d|";
+  }
+  90% {
+    content: "de|";
+  }
+  91% {
+    content: "des|";
+  }
+  92% {
+    content: "desi|";
+  }
+  93% {
+    content: "desig|";
+  }
+  94% {
+    content: "design|";
+  }
+  95% {
+    content: "designe|";
+  }
+  96% {
+    content: "designer|";
+  }
+  97% {
+    content: "designe|";
+  }
+  98% {
+    content: "design|";
+  }
+  99% {
+    content: "desig|";
+  }
+  100% {
+    content: "desi|";
+  }
+}
+
 .about-me-title h5::after {
   content: "";
   position: absolute;
