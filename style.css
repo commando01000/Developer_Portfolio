@@ -406,7 +406,7 @@ body {
   font-weight: bolder;
   border-style: none;
   border-radius: 4px;
-  bottom: 190px;
+  top: 93%;
   left: 40%;
   padding-left: 15px;
   padding-right: 15px;
@@ -423,7 +423,7 @@ body {
   font-weight: bolder;
   border-style: none;
   border-radius: 4px;
-  bottom: 190px;
+  top: 93%;
   left: 40%;
   padding-left: 15px;
   padding-right: 15px;
@@ -440,13 +440,58 @@ body {
   font-weight: bolder;
   border-style: none;
   border-radius: 4px;
-  bottom: 190px;
+  top: 93%;
   left: 38%;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 10px;
+}
+
+@media screen and (max-width: 1199px) {
+  #blog .container .card .card-category.workspace::after {
+    top: 93%;
+    left: 35%;
+  }
+  #blog .container .card .card-category.web-design::after {
+    top: 93%;
+    left: 35%;
+  }
+  #blog .container .card .card-category.travel::after {
+    top: 93%;
+    left: 40%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #blog .container .card .card-category.workspace::after {
+    top: 88%;
+    left: 29%;
+  }
+  #blog .container .card .card-category.web-design::after {
+    top: 88%;
+    left: 30%;
+  }
+  #blog .container .card .card-category.travel::after {
+    top: 88%;
+    left: 35%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #blog .container .card .card-category.workspace::after {
+    top: 95%;
+    left: 40%;
+  }
+  #blog .container .card .card-category.web-design::after {
+    top: 95%;
+    left: 40%;
+  }
+  #blog .container .card .card-category.travel::after {
+    top: 95%;
+    left: 43%;
+  }
 }
 
 footer {
