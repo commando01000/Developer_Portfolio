@@ -133,11 +133,12 @@ body {
   line-height: 1.55cm;
   margin: auto;
   text-align: center;
+  transition: 0.5s ease-out;
   box-shadow: 0 0 0 10px #0078ff;
 }
 
 #services .container .card:hover .ico-circle {
-  transition: 0.5s ease;
+  transition: 0.5s ease-in;
   color: #fff;
   background-color: #0078ff;
   box-shadow: 0 0 0 10px #cde1f8;
@@ -209,6 +210,7 @@ body {
 
 #portfolio .container .card {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 #portfolio .container .card .ico-circle {
@@ -227,6 +229,14 @@ body {
   color: #fff;
   background-color: #0078ff;
   box-shadow: 0 0 0 10px #cde1f8;
+}
+
+#portfolio .container .card .work-img {
+  transition: transform 1s;
+}
+
+#portfolio .container .card .work-img:hover {
+  transform: scale(1.1, 1.1);
 }
 
 #testimonials .carousel-item img {
@@ -384,4 +394,55 @@ body {
 
 .more-info ul li a {
   text-decoration: none;
+}
+
+#blog .container .card .card-category.travel::after {
+  content: "TRAVEL";
+  position: absolute;
+  background-color: #0078ff;
+  color: white;
+  font-weight: bolder;
+  border-style: none;
+  border-radius: 4px;
+  bottom: 190px;
+  left: 40%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 10px;
+}
+
+#blog .container .card .card-category.web-design::after {
+  content: "WEB-DESIGN";
+  position: absolute;
+  background-color: #0078ff;
+  color: white;
+  font-weight: bolder;
+  border-style: none;
+  border-radius: 4px;
+  bottom: 190px;
+  left: 40%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 10px;
+}
+
+#blog .container .card .card-category.workspace::after {
+  content: "WORKSPACE";
+  position: absolute;
+  background-color: #0078ff;
+  color: white;
+  font-weight: bolder;
+  border-style: none;
+  border-radius: 4px;
+  bottom: 190px;
+  left: 38%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 10px;
 }
