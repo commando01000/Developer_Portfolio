@@ -344,6 +344,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   z-index: 999;
+  box-shadow: 0 13px 8px -5px rgba(0, 0, 0, 0.1);
 }
 
 #contact-us .container {
@@ -445,4 +446,11 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 10px;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  padding: 25px 0;
+  background: #0062d3;
 }
