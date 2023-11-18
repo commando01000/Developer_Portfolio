@@ -233,10 +233,11 @@ body {
 
 #portfolio .container .card .work-img {
   transition: transform 1s;
+  transform-origin: center bottom;
 }
 
 #portfolio .container .card .work-img:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.1);
 }
 
 #testimonials .carousel-item img {
